@@ -1,10 +1,13 @@
-    /* Estilo tipo developer porque formal no sirvio */
-    /* Notas: 
-    -Debe estar en modo oscuro para verse bien
-     Se usa !important para forzar a poner el css, pq si no no funciona a veces
-    */
+/* ==================================================
+   Tema tipo developer - simple y básico
+   - Modo oscuro 
+   - Verde principal
+   - Amarillo como acento
+   - Se usa !important para sobrescribir estilos, porque si no no se aplican los cambios, ya que wikipedia no deja a veces
+================================================== */
 @-moz-document url-prefix("https://en.wikipedia.org/wiki/CSS") {
-/* Colores  */
+    
+/* Variables de colores  */
 :root {
     --bg-main: #0d1117;          /* fondo general */
     --bg-secundario: #161b22;     /* contenedores */

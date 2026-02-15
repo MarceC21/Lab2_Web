@@ -10,3 +10,5 @@ This repository contains a Stylus-compatible CSS file that customizes Wikipedia'
 
 
 ## After
+
+![Wikipedia Before](Ricing/capturas/WikipediaAfterCSS.png)
