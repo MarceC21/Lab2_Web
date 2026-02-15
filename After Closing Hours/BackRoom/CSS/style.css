@@ -1,0 +1,93 @@
+/* ESTILO BASE - AFTER CLOSING HOURS */
+
+
+/* Fondo general */
+body {
+    background-color: #000000;
+    color: #e6e6e6;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+/* H1 - Título principal */
+h1 {
+    color: #bbbbbb;
+    letter-spacing: 3px;
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
+
+/* H2 - Subtítulo misterioso */
+h2 {
+    color: #8d8100;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+/* H2 - Texto algo grande */
+h3 {
+    color: #888888;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+/* Imagen centrada */
+img {
+    width: 500px;
+    max-width: 90%;
+    border: 2px solid #444;
+    padding: 5px;
+}
+
+/* Link para navegar estilo botón simple */
+a {
+    color: #cccccc;
+    text-decoration: none;
+    border: 1px solid #666;
+    padding: 8px 18px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    background-color: #222;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+/* Header se mantiene oscuro */
+header {
+    background-color: black;
+    padding: 0px;
+}
+
+/* CONTENIDO CON IMAGEN DE FONDO */
+.contenido {
+    position: relative;
+    background-image: url("../imagenes/1 esc.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    padding: 80px 20px;
+}
+
+/* Oscurecer imagen */
+.contenido::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.contenido * {
+    position: relative;
+}
