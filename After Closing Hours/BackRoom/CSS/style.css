@@ -26,7 +26,7 @@ body {
     font-family: 'Merriweather', serif;
     text-align: center;
     margin: 0;
-    padding: 40px;
+    padding: 10px;
 }
 
 
@@ -154,8 +154,8 @@ img {
 /* ===================================== */
 
 .escena1  { background-image: url("../imagenes/1 esc.jpg"); }
-.escena2  { background-image: url("../imagenes/escena2.jpg"); }
-.escena3  { background-image: url("../imagenes/escena3.jpg"); }
+.escaleras { background-image: url("../imagenes/Escaleras.jpg"); }
+.pasillo1  { background-image: url("https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/2/0/5/f/205f74ce78cb3e368c42793d5adcf2ba35d04f5f.png"); }
 .escena4  { background-image: url("../imagenes/escena4.jpg"); }
 .escena5  { background-image: url("../imagenes/escena5.jpg"); }
 .escena6  { background-image: url("../imagenes/escena6.jpg"); }
@@ -184,7 +184,7 @@ img {
 
 footer {
     background-color: var(--color-fondo);
-    padding: 15px 0;
+    padding: 15px 20px;
     font-size: 14px;
     letter-spacing: 2px;
     color: var(--color-footer);
