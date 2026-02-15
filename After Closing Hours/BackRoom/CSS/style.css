@@ -1,19 +1,19 @@
 /* ESTILO BASE - AFTER CLOSING HOURS */
 
-
 /* Fondo general */
 body {
     background-color: #000000;
-    color: #e6e6e6;
+    color: #ffffff;
     font-family: 'Merriweather', serif;
     text-align: center;
     margin: 0;
     padding: 40px;
+    flex: 3;
 }
 
 /* H1 - Título principal */
 h1 {
-    color: #bbbbbb;
+    color: #ffffff;
     letter-spacing: 3px;
     font-family: "Papyrus", fantasy;
     font-weight: bold;
@@ -43,12 +43,13 @@ h3 {
 img {
     width: 500px;
     max-width: 90%;
-    border: 2px solid #444;
+    border: 2px solid #888888;
     padding: 5px;
 }
 
 
 /* Botones para navegar */
+
 /* CONTENEDOR DE BOTONES */
 .botones {
     display: flex;
@@ -79,12 +80,6 @@ img {
 
 
 
-/* Header se mantiene oscuro */
-.instr {
-    background-color: black;
-    padding: 20px 60px;
-}
-
 /* CONTENIDO CON IMAGEN DE FONDO */
 .contenido {
     position: relative;
@@ -113,4 +108,23 @@ img {
 
 .contenido * {
     position: relative;
+}
+
+
+
+/* Solo para la parte de las reglas */
+.instr {
+    background-color: black;
+    padding: 20px 60px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #000000;
+    padding: 15px 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #7c3710;
+    border-top: 1px solid #222;
 }
