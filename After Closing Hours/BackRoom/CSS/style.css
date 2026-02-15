@@ -1,91 +1,128 @@
-/* ESTILO BASE - AFTER CLOSING HOURS */
 
-/* Fondo general */
+/*          AFTER CLOSING HOURS - STYLE           */
+
+
+
+/* ===================== */
+/* VARIABLES DE COLOR    */
+/* ===================== */
+
+:root {
+    --color-fondo: #000000;
+    --color-texto: #ffffff;
+    --color-dorado: #8d8100;
+    --color-gris: #888888;
+    --color-footer: #7c3710;
+}
+
+
+/* ===================== */
+/* ESTILO BASE GENERAL   */
+/* ===================== */
+
 body {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
     font-family: 'Merriweather', serif;
     text-align: center;
     margin: 0;
     padding: 40px;
-    flex: 3;
 }
+
+
+/* ===================== */
+/* HEADERS               */
+/* ===================== */
 
 /* H1 - Título principal */
 h1 {
-    color: #ffffff;
+    color: var(--color-texto);
     letter-spacing: 3px;
     font-family: "Papyrus", fantasy;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 40px;
     margin-bottom: 10px;
-    
 }
 
-/* H2 - Subtítulo misterioso */
+/* H2 - Subtítulo*/
 h2 {
-    color: #8d8100;
+    color: var(--color-dorado);
     font-weight: bold;
     font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
     font-size: 35px;
 }
 
-/* H2 - Texto algo grande */
+/* H3 - Texto secundario */
 h3 {
-    color: #888888;
+    color: var(--color-gris);
     font-weight: normal;
     font-size: 22px;
 }
 
-/* Imagen centrada */
+
+/* ===================== */
+/* IMÁGENES              */
+/* ===================== */
+
 img {
     width: 500px;
     max-width: 90%;
-    border: 2px solid #888888;
+    border: 2px solid var(--color-gris);
     padding: 5px;
 }
 
 
-/* Botones para navegar */
+/* ===================== */
+/* BOTONES DE NAVEGACIÓN */
+/* ===================== */
 
-/* CONTENEDOR DE BOTONES */
+/* Contenedor de botones */
 .botones {
     display: flex;
-    gap: 150px;              /* espacio entre botones */
+    justify-content: center;  /* Centra los botones */
+    gap: 100px;               /* Espacio entre botones */
     margin-top: 40px;
 }
 
+/* Estilo base de enlaces tipo botón */
 .botones a {
     padding: 14px 40px;    
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
 
-    border: 2px solid #8d8100; 
+    border: 2px solid var(--color-dorado);
     color: #e6e6e6;
     background-color: transparent;
+
+    text-decoration: none;
 
     transition: all 0.3s ease;
 }
 
-/* hover efetco*/
+/* Efecto hover */
 .botones a:hover {
-    background-color: #8d8100;
+    background-color: var(--color-dorado);
     color: black;
     transform: scale(1.08);
-    box-shadow: 0 0 15px #8d8100;
+    box-shadow: 0 0 15px var(--color-dorado);
 }
 
 
+/* =============================== */
+/* CONTENEDOR PRINCIPAL DE ESCENA */
+/* =============================== */
+/* Este contenedor se usa en TODAS las pantallas */
 
-/* CONTENIDO CON IMAGEN DE FONDO */
 .contenido {
     position: relative;
-    background-image: url("../imagenes/1 esc.jpg");
+
+    /* Imagen dinámica (definida por clase escenaX) */
     background-size: cover;
     background-position: center;
+
     min-height: 80vh;
     padding: 80px 20px;
 
@@ -94,11 +131,11 @@ img {
     justify-content: center;  
     align-items: center;      
     text-align: center;
-    font-size: 20px;
 
+    font-size: 20px;
 }
 
-/* Oscurecer imagen */
+/* Overlay oscuro para mejorar lectura */
 .contenido::before {
     content: "";
     position: absolute;
@@ -106,25 +143,50 @@ img {
     background: rgba(0, 0, 0, 0.6);
 }
 
+/* Hace que el texto esté encima del overlay */
 .contenido * {
     position: relative;
 }
 
 
+/* ===================================== */
+/* CLASES PARA LAS PAGINAS DIFERENTES */
+/* ===================================== */
 
+.escena1  { background-image: url("../imagenes/1 esc.jpg"); }
+.escena2  { background-image: url("../imagenes/escena2.jpg"); }
+.escena3  { background-image: url("../imagenes/escena3.jpg"); }
+.escena4  { background-image: url("../imagenes/escena4.jpg"); }
+.escena5  { background-image: url("../imagenes/escena5.jpg"); }
+.escena6  { background-image: url("../imagenes/escena6.jpg"); }
+.escena7  { background-image: url("../imagenes/escena7.jpg"); }
+.escena8  { background-image: url("../imagenes/escena8.jpg"); }
+.escena9  { background-image: url("../imagenes/escena9.jpg"); }
+.escena10 { background-image: url("../imagenes/escena10.jpg"); }
+.escena11 { background-image: url("../imagenes/escena11.jpg"); }
+.escena12 { background-image: url("../imagenes/escena12.jpg"); }
+.escena13 { background-image: url("../imagenes/escena13.jpg"); }
+
+
+/* ===================== */
 /* Solo para la parte de las reglas */
+/* ===================== */
+
 .instr {
-    background-color: black;
+    background-color: var(--color-fondo);
     padding: 20px 60px;
 }
 
 
-/* Footer */
+/* ===================== */
+/* FOOTER                */
+/* ===================== */
+
 footer {
-    background-color: #000000;
+    background-color: var(--color-fondo);
     padding: 15px 0;
     font-size: 14px;
     letter-spacing: 2px;
-    color: #7c3710;
+    color: var(--color-footer);
     border-top: 1px solid #222;
 }
