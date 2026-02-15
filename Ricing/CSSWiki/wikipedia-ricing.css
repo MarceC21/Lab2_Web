@@ -1,137 +1,47 @@
- /* Se usa !important para forzar a poner el css, pq si no no funciona a veces*/
-
+    /* Estilo tipo developer porque formal no sirvio */
+    /* Notas: 
+    -Debe estar en modo oscuro para verse bien
+     Se usa !important para forzar a poner el css, pq si no no funciona a veces
+    */
 @-moz-document url-prefix("https://en.wikipedia.org/wiki/CSS") {
-    /* Inserte el código aquí... */
-    /* VARIABLES  */
+/* Colores  */
 :root {
-    --bg-main: #0f172a;        /* fondo principal */
-    --bg-content: #1e293b;     /* fondo contenedor */
-    --text-main: #e2e8f0;      /* texto principal */
-    --text-muted: #94a3b8;     /* texto secundario */
-    --blue-accent: #3b82f6;    /* azul principal */
-    --purple-accent: #8b5cf6;  /* morado elegante */
-    --border-color: #334155;
+    --bg-main: #0d1117;          /* fondo general */
+    --bg-secundario: #161b22;     /* contenedores */
+    --green1: #00ff9c;    /* verde brillante */
+    --green2: #00c97a;
+    --yellow: #ffd60a;    /* amarillo fuerte */
+    --text: #e6edf3;
+    --border: #30363d;
 }
-
-/* ==============================
-   BODY GENERAL
-================================= */
-body {
-    background-color: var(--bg-main) !important;
-    color: var(--text-main) !important;
-    font-family: "Inter", "Segoe UI", sans-serif !important;
-    line-height: 1.7 !important;
-}
-
-/* ==============================
-   CONTENEDOR PRINCIPAL
-================================= */
-.mw-body {
-    background-color: var(--bg-content) !important;
-    padding: 40px !important;
-    border-radius: 12px !important;
-    max-width: 1000px !important;
-    margin: 40px auto !important;
     
-}
-
-/* ==============================
-   HEADERS
-================================= */
+/*  HEADERS (verde programador)  */
+    /*  Se probo lo de rem por buena práctica  */
+    
 h1 {
+    color: var(--green1) !important;
     font-size: 2.2rem !important;
-    color: var(--blue-accent) !important;
-    border-bottom: 2px solid var(--border-color) !important;
+    border-bottom: 2px solid var(--green2) !important;
     padding-bottom: 10px !important;
 }
 
 h2 {
+    color: var(--yellow-accent) !important;
     font-size: 1.6rem !important;
-    color: var(--purple-accent) !important;
     border-bottom: 1px solid var(--border-color) !important;
-    padding-bottom: 6px !important;
 }
 
 h3 {
-    font-size: 1.2rem !important;
-    color: var(--blue-accent) !important;
+    color: var(--green-soft) !important;
 }
 
-/*  LINKS */
-a {
-    color: var(--blue-accent) !important;
-    text-decoration: none !important;
-}
 
-a:hover {
-    color: var(--purple-accent) !important;
-    text-decoration: underline !important;
-}
-
-/* ==============================
-   SIDEBAR IZQUIERDA
-================================= */
-#mw-panel {
-    background-color: var(--bg-content) !important;
-    border-right: 1px solid var(--border-color) !important;
-}
-
-#mw-panel a {
-    color: var(--text-muted) !important;
-}
-
-#mw-panel a:hover {
-    color: var(--blue-accent) !important;
-}
-
-/* ==============================
-   TABLAS
-================================= */
-table {
-    background-color: #6b83b7 !important;
-    border-collapse: collapse !important;
-    width: 100% !important;
-    border-radius: 8px !important;
-    overflow: hidden !important;
-}
-
-th {
-    background-color: var(--blue-accent) !important;
-    color: white !important;
-    padding: 10px !important;
-}
-
-td {
-    padding: 10px !important;
-    border-bottom: 1px solid var(--border-color) !important;
-}
-
-/* ==============================
-   INFOBOX (la caja derecha)
-================================= */
-.infobox {
-    background-color: #6984be !important;
-    border: 1px solid var(--border-color) !important;
-    border-radius: 10px !important;
-    padding: 10px !important;
-}
-
-/* ==============================
-   FOOTER
-================================= */
-#footer {
-    background-color: var(--bg-content) !important;
-    color: var(--text-muted) !important;
-    border-top: 1px solid var(--border-color) !important;
-    padding: 20px !important;
-}
-
-/* ==============================
-   MENÚ SUPERIOR
-================================= */
-.vector-header-container {
-    background-color: #0b1220 !important;
-    border-bottom: 1px solid var(--border-color) !important;
+/* BODY*/
+body {
+    background-color: var(--bg-main) !important;
+    color: var(--text) !important;
+    font-family: "Fira Code", "Consolas", monospace !important;
+    line-height: 1.7 !important;
 }
 
 }
