@@ -34,21 +34,26 @@
 
 /* Esto si toco ver de donde lo hacia  */
 
+.tema-claro {
+    --color-fondo: #8cf0ad;
+}
+
 .tema-salida .contenido::before {
     background:
         /* Rayo verde diagonal */
         linear-gradient(
             120deg,
-            rgba(0,255,120,0.3) 0%,
-            rgba(0,255,120,0.15) 20%,
-            rgba(0,0,0,0.8) 60%
+            rgba(0,255,120,0.4) 0%,
+            rgba(0,255,120,0.2) 40%,
+            transparent 70%
         ),
 
         /* Halo verde en el centro */
         radial-gradient(
             circle,
-            rgba(0,255,120,0.3) 10%,
-            rgba(0,0,0,0.9) 70%
+            rgba(0,255,120,0.4) 10%,
+            rgba(0,255,120,0.15) 50%,
+            transparent 80%
         );
 }
 
@@ -232,14 +237,14 @@ img {
 .sala  { background-image: url("../imagenes/CineEn.jpg"); }
 .pasilloBucle  { background-image: url("https://i.redd.it/no-clipped-to-level-290-v0-eonaoryvtnue1.jpg?width=3024&format=pjpg&auto=webp&s=632816c3dc94e8b87d22c11f21ace7a5ce4a0663"); }
 .sinSalida  { background-image: url("https://static.wikia.nocookie.net/escapethebackrooms/images/d/d8/Level_3_Screenshot_4.jpg/revision/latest/scale-to-width-down/250?cb=20240327010119"); }
-.escena8  { background-image: url("../imagenes/escena8.jpg"); }
-.escena9  { background-image: url("../imagenes/escena9.jpg"); }
-.escena10 { background-image: url("../imagenes/escena10.jpg"); }
-.escena11 { background-image: url("../imagenes/escena11.jpg"); }
-.escena12 { background-image: url("../imagenes/escena12.jpg"); }
-.escena13 { background-image: url("../imagenes/escena13.jpg"); }
-
-
+.juego  { background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c81730f-c79b-464b-93e9-0e3d89b58943/dfoovco-ed5c00ba-8135-4859-a1b5-d59e070e0041.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi85YzgxNzMwZi1jNzliLTQ2NGItOTNlOS0wZTNkODliNTg5NDMvZGZvb3Zjby1lZDVjMDBiYS04MTM1LTQ4NTktYTFiNS1kNTllMDcwZTAwNDEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-D6s2UGx6jwVhCDc0fHETZDoo1zR5qGQhPGcRNPILiU"); }
+.super  { background-image: url("https://i.ytimg.com/vi/GtVJwp-9XaQ/maxresdefault.jpg"); }
+.escena10 { background-image: url("https://i1.sndcdn.com/artworks-000058461526-yyhu2h-t500x500.jpg"); }
+.aguas { background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKzwqlIbb2FDxJGrjh-rOl5GrfBXbCy2HpsA&s"); }
+.escena12 { background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDhB_Xk0I0_n3DyWJNDUsgyQ8-VkwnU3E7w&s"); }
+.escena13 { background-image: url("https://live.staticflickr.com/65535/49950764911_2d749a6346_b.jpg"); }
+.entidad { background-image: url("https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/08/smiler-backrooms-(1).jpg?q=50&fit=crop&w=825&dpr=1.5"); }
+.salida { background-image: url("https://static.wikia.nocookie.net/backrooms-freewriting/images/d/d5/Suburbs-Deja_vu.jpg/revision/latest?cb=20240903101838"); }
 /* ===================== */
 /* Solo para la parte de las reglas */
 /* ===================== */
