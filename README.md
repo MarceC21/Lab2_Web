@@ -13,7 +13,7 @@ Ricing for Wikipedia — a small stylesheet that restyles Wikipedia for a cleane
 
 This repository contains a Stylus-compatible CSS file that customizes Wikipedia's appearance (colors, typography, spacing).
 
-**Stylesheet location:**
+### Stylesheet Location
 
 ```
 Wikipedia Ricing/CSSWiki/wikipedia-ricing.css
@@ -26,6 +26,7 @@ Wikipedia Ricing/CSSWiki/wikipedia-ricing.css
 ### After
 
 ![Wikipedia After](Wikipedia Ricing/capturas/WikipediaAfterCSS.png)
+
 
 ---
 
