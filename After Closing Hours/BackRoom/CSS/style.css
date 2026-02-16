@@ -15,6 +15,78 @@
     --color-footer: #7c3710;
 }
 
+/* ===================== */
+/* TEMAS ALTERNATIVOS    */
+/* ===================== */
+
+/* tema bucles  */
+
+.tema-bucle .contenido::before {
+    background: radial-gradient(
+        circle,
+        rgba(0,0,0,0.5) 40%,
+        rgba(0,0,0,0.85) 100%
+    );
+}
+
+
+/* Tema para la salida */
+
+/* Esto si toco ver de donde lo hacia  */
+
+.tema-salida .contenido::before {
+    background:
+        /* Rayo verde diagonal */
+        linear-gradient(
+            120deg,
+            rgba(0,255,120,0.3) 0%,
+            rgba(0,255,120,0.15) 20%,
+            rgba(0,0,0,0.8) 60%
+        ),
+
+        /* Halo verde en el centro */
+        radial-gradient(
+            circle,
+            rgba(0,255,120,0.3) 10%,
+            rgba(0,0,0,0.9) 70%
+        );
+}
+
+
+
+/* Tema de peligro */
+
+.tema-peligro .contenido::before {
+    background: radial-gradient(
+        circle,
+        rgba(0,0,0,0.5) 40%,
+        rgba(0,0,0,0.85) 100%
+    );
+}
+
+/* EFECTO DE GLITCH  */
+/* Esta muy buena para la tensión */
+@keyframes glitchLeve {
+    0%,100% { transform: translate(0,0); }
+    25% { transform: translate(1px,-1px); }
+    50% { transform: translate(-1px,1px); }
+    75% { transform: translate(1px,1px); }
+}
+.tema-peligro .contenido {
+    animation: glitchLeve 0.3s infinite;
+}
+
+/* Tema de que te ya te mato la entidad */
+.tema-entidad .contenido::before {
+    background: radial-gradient(
+        circle,
+        rgba(80,0,0,0.3) 30%,
+        rgba(0,0,0,0.9) 100%
+    );
+}
+
+
+
 
 /* ===================== */
 /* ESTILO BASE GENERAL   */
@@ -123,8 +195,8 @@ img {
     background-size: cover;
     background-position: center;
 
-    min-height: 80vh;
-    padding: 80px 20px;
+    min-height: 90vh;
+    padding: 50px 0px;
 
     display: flex;
     flex-direction: column;
@@ -156,10 +228,10 @@ img {
 .escena1  { background-image: url("../imagenes/1 esc.jpg"); }
 .escaleras { background-image: url("../imagenes/Escaleras.jpg"); }
 .pasillo1  { background-image: url("https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/2/0/5/f/205f74ce78cb3e368c42793d5adcf2ba35d04f5f.png"); }
-.escena4  { background-image: url("../imagenes/escena4.jpg"); }
-.escena5  { background-image: url("../imagenes/escena5.jpg"); }
-.escena6  { background-image: url("../imagenes/escena6.jpg"); }
-.escena7  { background-image: url("../imagenes/escena7.jpg"); }
+.cine  { background-image: url("https://i.redd.it/0hxody8a2dj91.jpg"); }
+.sala  { background-image: url("../imagenes/CineEn.jpg"); }
+.pasilloBucle  { background-image: url("https://i.redd.it/no-clipped-to-level-290-v0-eonaoryvtnue1.jpg?width=3024&format=pjpg&auto=webp&s=632816c3dc94e8b87d22c11f21ace7a5ce4a0663"); }
+.sinSalida  { background-image: url("https://static.wikia.nocookie.net/escapethebackrooms/images/d/d8/Level_3_Screenshot_4.jpg/revision/latest/scale-to-width-down/250?cb=20240327010119"); }
 .escena8  { background-image: url("../imagenes/escena8.jpg"); }
 .escena9  { background-image: url("../imagenes/escena9.jpg"); }
 .escena10 { background-image: url("../imagenes/escena10.jpg"); }
