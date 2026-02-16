@@ -16,16 +16,16 @@ This repository contains a Stylus-compatible CSS file that customizes Wikipedia'
 **Stylesheet location:**
 
 ```
-Ricing/CSSWiki/wikipedia-ricing.css
+Wikipedia Ricing/CSSWiki/wikipedia-ricing.css
 ```
 
 ### Before
 
-![Wikipedia Before](Ricing/capturas/WikipediaBeforeCSS.png)
+![Wikipedia Before](Wikipedia Ricing/capturas/WikipediaBeforeCSS.png)
 
 ### After
 
-![Wikipedia After](Ricing/capturas/WikipediaAfterCSS.png)
+![Wikipedia After](Wikipedia Ricing/capturas/WikipediaAfterCSS.png)
 
 ---
 
@@ -121,4 +121,5 @@ The game is organized as an HTML-based interactive fiction with interconnected p
 ---
 
 ### Video Demo
+https://youtu.be/EdUmKt4Nnl0 
 
