@@ -21,11 +21,11 @@ Wikipedia Ricing/CSSWiki/wikipedia-ricing.css
 
 ### Before
 
-![Wikipedia Before](Wikipedia Ricing/capturas/WikipediaBeforeCSS.png)
+![Wikipedia Before](Wikipedia%20Ricing/capturas/WikipediaBeforeCSS.png)
 
 ### After
 
-![Wikipedia After](Wikipedia Ricing/capturas/WikipediaAfterCSS.png)
+![Wikipedia After](Wikipedia%20Ricing/capturas/WikipediaAfterCSS.png)
 
 
 ---
